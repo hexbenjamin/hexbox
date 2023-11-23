@@ -1,4 +1,4 @@
-# compile = "poetry run reflex init"
+compile = "poetry run reflex init"
 run = "poetry run reflex run"
 entrypoint = "main.py"
 # modules = ["python-3.10:v18-20230807-322e88b"]
@@ -11,12 +11,6 @@ channel = "stable-23_05"
 [env]
 REPLIT_PYTHON_PACKAGE_LAYER = "1"
 REPLIT_NODEJS_PACKAGE_LAYER = "1"
-
-[packager]
-language = "python3"
-
-    [packager.features]
-    guessImports = false
 
 [unitTest]
 language = "python3"
